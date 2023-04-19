@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://co3hy3a0ipxpw"]
+
+[ext_resource type="PackedScene" uid="uid://dfvsgmmaalayo" path="res://environment.blend" id="1_rvs51"]
+
+[node name="environment" instance=ExtResource("1_rvs51")]
+
+[node name="Plane" parent="." index="0"]
+layers = 2
